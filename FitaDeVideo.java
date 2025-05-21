@@ -22,10 +22,7 @@ public class FitaDeVideo {
 //tentativa de metodo toString
     @Override
     public String toString() {
-        return "FitaDeVideo{" +
-               "titulo='" + titulo + '\'' +
-               ", precoPorDia=" + precoPorDia +  
-               '}';
+        return "FitaDeVideo{" + "titulo='" + titulo + '\'' + ", precoPorDia=" + precoPorDia + '}';
     }
     
     public void imprimir(int dias) {
