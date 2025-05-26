@@ -50,4 +50,9 @@ public class Porta {
             System.out.println("A porta está fechada.");
         }
     }
+      @Override
+    public String toString() {
+        return "A cor da porta é " + cor + ". Ela possui " + altura + " metros de altura e " + largura + " de largura.";
+    }
+}
 }
