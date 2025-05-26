@@ -2,6 +2,7 @@ public class PrincipalPorta {
     public static void main(String[] args) {
         Porta p = new Porta("rosa", 2.00f, 1.30f, true);
         
+        System.out.println(p.toString());
         p.estadoDaPorta();
         p.setEstaAberta(false);
         p.estadoDaPorta();
