@@ -4,8 +4,8 @@ public class Porta {
     private float largura;
     private boolean estaAberta;
 
-    public Porta(String cor, float altura, float largura, boolean estaAberta) {
-        this.cor = cor;
+    public Porta(String cor, float altura, float largura, boolean estaAberta) { //Parametros: Valores passados para inicializar um objeto
+        this.cor = cor;                 // this. atribui o valor do parâmetro à propriedade "cor" do objeto
         this.altura = altura;
         this.largura = largura;
         this.estaAberta = estaAberta;
@@ -51,7 +51,7 @@ public class Porta {
         }
     }
       @Override
-    public String toString() {
+    public String toString() { //retorna uma representação em string de um objeto
         return "A cor da porta é " + cor + ". Ela possui " + altura + " metros de altura e " + largura + " de largura.";
     }
 }
