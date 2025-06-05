@@ -60,7 +60,7 @@ public void decolarHelicoptero(float altura) {
         }
     }
 public void aterrissarHelicoptero() {
-    if (estaLigado == false && altitude >= 1) {
+    if (estaLigado == true && altitude >= 1) {
         altitude = 0; 
     }
     }
