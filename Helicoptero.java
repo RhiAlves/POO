@@ -56,12 +56,12 @@ public void ligar(){
     }
 public void decolarHelicoptero(double altura) {
     if (altitude <= 0 && estaLigado == true) {
-        altitude = (float)(altitude + altura);  
+        altitude = (altitude + altura);  
         }
     }
-public void aterrissarHelicoptero(double altura) {
+public void aterrissarHelicoptero() {
     if (estaLigado == false && altitude >= 1) {
-        altitude = (float)(altitude - altura); 
+        altitude = 0; 
     }
     }
 public void desligarHelicoptero() {
