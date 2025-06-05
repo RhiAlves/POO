@@ -54,7 +54,7 @@ public void ligar(){
             }
     
     }
-public void decolarHelicoptero(double altura) {
+public void decolarHelicoptero(float altura) {
     if (altitude <= 0 && estaLigado == true) {
         altitude = (altitude + altura);  
         }
