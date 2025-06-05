@@ -31,8 +31,8 @@ public class PrincipalHelicoptero {
         System.out.println(h2.toString());  
         
         //Aterrissar helicópteros
-        h1.aterrissarHelicoptero(600);
-        h2.aterrissarHelicoptero(550);
+        h1.aterrissarHelicoptero();
+        h2.aterrissarHelicoptero();
         
         //desligar helicópteros
         h1.desligarHelicoptero();
