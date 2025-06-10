@@ -4,9 +4,11 @@ public class PrincipalHelicoptero {
         Helicoptero h2 = new Helicoptero(3);
 
         //estado atual do Helicóptero
+        System.out.println("---- Estado inicial dos helicopteros ----");
         System.out.println(h1.toString());
         System.out.println(h2.toString());
         
+        System.out.println("---- Adicionando pessoas, ligando e decolando os helicopteros ----");
         //adicionando pessoas 
         h1.adicionarPessoa();
         h1.adicionarPessoa();
@@ -48,6 +50,7 @@ public class PrincipalHelicoptero {
         h2.sairPessoa();
         h2.sairPessoa();
 
+        System.out.println("---- Removendo pessoas, aterrissando e desligando helicopteros ----");
         //estado atual do helicóptero
         System.out.println(h1.toString());
         System.out.println(h2.toString());
