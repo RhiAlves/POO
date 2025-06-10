@@ -71,7 +71,7 @@ public void desligarHelicoptero() {
     }
     @Override
     public String toString(){
-    return "O helicoptero possui a capacipade para " + capacidadeHelicoptero + " pessoas, porem, atualmente ha " + getPessoasPresentes() + " pessoas presentes." +"\n Ele está ligado?" + estaLigado + "\n Qual a sua altitude? " + altitude +" metros.";
+    return "Qual a capacidade do helicoptero? " + capacidadeHelicoptero + " pessoas " + "\n Quantidade de pessoas presentes: " + getPessoasPresentes()  + "\n Ele está ligado?" + estaLigado + "\n Qual a sua altitude? " + altitude +" metros.";
 }
 
 }
