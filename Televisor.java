@@ -40,14 +40,14 @@ public void desligar(){
         ligado = false;
     }
 }
-public void aumentarVolume(int incremento){
+public void aumentarVolume(int novoVolume){
     if (ligado == true){
-        volume += incremento;
+        volume += novoVolume;
     }
 }
-public void diminuirVolume(int incremento){
+public void diminuirVolume(int novoVolume){
     if (ligado == true){
-        volume -= incremento;
+        volume -= novoVolume;
     }
 }
 public void trocarCanal(double novoCanal){
@@ -62,3 +62,4 @@ public void trocarCanal(double novoCanal){
 
 }
 }
+
