@@ -41,12 +41,12 @@ public void desligar(){
     }
 }
 public void aumentarVolume(int novoVolume){
-    if (ligado == true){
+    if (ligado == true && novoVolume > 0){
         volume += novoVolume;
     }
 }
 public void diminuirVolume(int novoVolume){
-    if (ligado == true){
+    if (ligado == true && novoVolume > 0){
         volume -= novoVolume;
     }
 }
